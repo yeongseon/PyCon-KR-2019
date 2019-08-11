@@ -1,7 +1,10 @@
 """
+Test the add, subtract, multiply, divide
 
+$ cd 03-Fixtures
+$ python -m pytest
 """
-import pytest  # for pytest.fixture
+import pytest
 
 from src.calculator import Calculator
 

@@ -1,15 +1,14 @@
 """
-pytest.mark.parametrize + mark.xfail/skip
+Test the add, subtract, multiply, divide
+
+$ cd 04-Parameterize
+$ python -m pytest
+
+pytest buildin markers: skip, skipif and xfail
+skip: enable you to skip tests you don't want to run
+skipif: enable you to skip tests you don't want to run with conditions
+xfail: we expect that this test will be failed
 """
-import pytest  # for pytest.fixture
-
-from src.calculator import Calculator
-
-
-@pytest.fixture
-def calculator():
-    calculator = Calculator()
-    return calculator
 
 
 @pytest.mark.parametrize(
@@ -21,6 +20,7 @@ def test_add(calculator, a, b, expected):
     assert calculator.add(a, b) == expected
 
 
+# pytest.mark.xfail
 @pytest.mark.xfail(rason="wrong result")
 @pytest.mark.parametrize(
     "a, b, expected",
@@ -49,6 +49,7 @@ def test_subtract(calculator, a, b, expected):
 def test_subtract_fail(calculator, a, b, expected):
     assert calculator.subtract(5, 1) != 6
 
+
 """
 tests/test_calculator_param_2.py::test_add_fail[1-2-6] XPASS                                                                                                                                       [ 33%]
 tests/test_calculator_param_2.py::test_add_fail[2-2-5] XPASS                                                                                                                                       [ 66%]
@@ -61,6 +62,7 @@ tests/test_calculator_param_2.py::test_add_fail[2-7-2] XFAIL                    
 
 """
 
+
 @pytest.mark.parametrize(
     "a, b, expected",
     [(2, 2, 4),
@@ -70,6 +72,7 @@ def test_multiply(calculator, a, b, expected):
     assert calculator.multiply(a, b) == expected
 
 
+# pytest.param<value>
 @pytest.mark.parametrize(
     "a, b, expected",
     [pytest.param(2, 2, 0, marks=pytest.mark.xfail),

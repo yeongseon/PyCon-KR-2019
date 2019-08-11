@@ -1,15 +1,7 @@
 """
 
 """
-import pytest
-
 from src.calculator_2 import Calculator
-
-
-@pytest.fixture
-def calculator():
-    calculator = Calculator()
-    return calculator
 
 
 def test_divide_by_zero(calculator):

@@ -1,17 +1,24 @@
 """
+Test the add, subtract, multiply, divide
 
+$ cd 03-Fixtures
+$ python -m pytest
+
+Introduction fixtures
 """
-import pytest  # for pytest.fixture
+import pytest
 
 from src.calculator import Calculator
 
 
+# @pytest.fixture: fixture decorator
 @pytest.fixture
 def calculator():
     calculator = Calculator()
     return calculator
 
 
+# fixture are run by pytest before the actual test function.
 def test_add(calculator):
     assert calculator.add(1, 2) == 3
     assert calculator.add(2, 2) == 4

@@ -1,15 +1,9 @@
 """
-pytest.mark.parametrize
+Test the add, subtract, multiply, divide
+
+$ cd 04-Parameterize
+$ python -m pytest
 """
-import pytest  # for pytest.fixture
-
-from src.calculator import Calculator
-
-
-@pytest.fixture
-def calculator():
-    calculator = Calculator()
-    return calculator
 
 
 # def test_add(calculator, a, b, expected):
@@ -19,6 +13,9 @@ def test_add(calculator):
     assert calculator.add(9, 2) == 11
 
 
+# pytest.mark marking test function
+# A test can have more than one marker, and marker can be on multiple test
+# pytest.mark.parametrize(argnames, argvalues): pass lots of data through the same test
 @pytest.mark.parametrize(
     "a, b, expected",
     [(1, 2, 6),

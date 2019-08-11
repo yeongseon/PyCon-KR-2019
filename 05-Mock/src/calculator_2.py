@@ -7,9 +7,11 @@ logging.basicConfig(level=logging.INFO)
 
 
 class Calculator():
+    """Calculator class"""
 
     def __init__(self):
         self.logger = logging.getLogger(self.__class__.__name__)
+
     """
     def add(self, a, b):
         self.logger.info(
@@ -18,6 +20,7 @@ class Calculator():
             ))
         return a + b
     """
+
     def add(self, a, b):
         if not isinstance(a, int):
             raise ValueError

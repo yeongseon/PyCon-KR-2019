@@ -1,16 +1,11 @@
 """
-pytest.mark.parametrize + mark.xfail/skip + ids
+Test the add, subtract, multiply, divide
+
+$ cd 04-Parameterize
+$ python -m pytest
+
+ids: optional parameter to parametrize() to make our own identifiers
 """
-import pytest  # for pytest.fixture
-
-from src.calculator import Calculator
-
-
-@pytest.fixture
-def calculator():
-    calculator = Calculator()
-    return calculator
-
 
 add_test_data = [
     (1, 2, 3),
@@ -74,17 +69,19 @@ def test_multiply(calculator, a, b, expected):
     assert calculator.multiply(a, b) == expected
 
 
-divided_test_data =     [
-        (8, 2, 4),
-        (9, 3, 3),
-        (12, 6, 2),
-        pytest.param(8, 2, 9, marks=pytest.mark.xfail),
-        pytest.param(9, 3, 2, marks=pytest.mark.xfail),
-        pytest.param(12, 6, 12, marks=pytest.mark.xfail)
-    ]
+divided_test_data = [
+    (8, 2, 4),
+    (9, 3, 3),
+    (12, 6, 2),
+    pytest.param(8, 2, 9, marks=pytest.mark.xfail),
+    pytest.param(9, 3, 2, marks=pytest.mark.xfail),
+    pytest.param(12, 6, 12, marks=pytest.mark.xfail)
+]
+
+
 @pytest.mark.parametrize(
     "a, b, expected", divided_test_data,
-    ids = [
+    ids=[
         "8 divided by 2 is 4",
         "9 divided by 3 is 3",
         "12 divided by 6 is 2",

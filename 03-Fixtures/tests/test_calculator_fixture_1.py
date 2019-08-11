@@ -1,5 +1,8 @@
 """
+Test the add, subtract, multiply, divide
 
+$ cd 03-Fixtures
+$ python -m pytest
 """
 from src.calculator import Calculator
 

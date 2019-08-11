@@ -1,7 +1,10 @@
 """
 
 """
-class Calculator():
+
+
+class Calculator(object):
+    """Calculator class"""
     def __init__(self):
         pass
 

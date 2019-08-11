@@ -1,16 +1,11 @@
 """
-mocker.spy
-"""
-import pytest
+pytest plugins: third-party plugins
 
+pytest-mock
+"""
 from src.calculator_1 import Calculator
 
-
-@pytest.fixture
-def calculator():
-    calculator = Calculator()
-    return calculator
-
+import pytest
 
 add_test_data = [
     (1, 2, 3),
@@ -32,6 +27,7 @@ def test_add(calculator, a, b, expected):
 @pytest.mark.parametrize(
     "a, b, expected", add_test_data
 )
+# mocker: The mocker fixture is provided by the pytest-mock plugin
 def test_add_spy_logger(mocker, calculator, a, b, expected):
     spy_info = mocker.spy(calculator.logger, "info")
     assert calculator.add(a, b) == expected
@@ -56,4 +52,3 @@ def test_add_spy_add(mocker, calculator, a, b, expected):
 
     calls = [mocker.call(a, b)]
     assert spy_add.call_args_list == calls
-

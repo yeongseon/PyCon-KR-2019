@@ -19,28 +19,32 @@ add_test_data = [
 
 
 @pytest.mark.parametrize(
-    "a, b, expected", add_test_data
+    "a, b, expected", add_test_data,
+    ids=[
+        "1 add 2 is 3",
+        "2 add 2 is 4",
+        "2 add 7 is 9",
+        "1 add 2 is not 6",
+        "2 add 2 is not 5",
+        "2 add 7 is not 2"
+    ]
 )
 def test_add(calculator, a, b, expected):
     assert calculator.add(a, b) == expected
 
 
 subtract_test_data = [
-    (5, 1, 4),
-    (3, 2, 1),
-    (10, 2, 8),
-    pytest.param(5, 1, 6, marks=pytest.mark.xfail),
-    pytest.param(3, 2, 2, marks=pytest.mark.xfail),
-    pytest.param(10, 2, 1, marks=pytest.mark.xfail)
+    pytest.param(5, 1, 4, id="5 subtract 1 is 4"),
+    pytest.param(3, 2, 1, id="3 subtract 2 is 1"),
+    pytest.param(10, 2, 8, id="10 subtract 2 is 8"),
+    pytest.param(5, 1, 6, marks=pytest.mark.xfail, id="5 subtract 1 is 6"),
+    pytest.param(3, 2, 2, marks=pytest.mark.xfail, id="3 subtract 2 is 2"),
+    pytest.param(10, 2, 1, marks=pytest.mark.xfail, id="10 subtract 2 is 1")
 ]
 
 
 @pytest.mark.parametrize(
-    "a, b, expected", subtract_test_data,
-    ids=[
-        "pass", "pass", "pass",
-        "fail", "fail", "fail"
-    ]
+    "a, b, expected", subtract_test_data
 )
 def test_subtract(calculator, a, b, expected):
     assert calculator.subtract(a, b) == expected

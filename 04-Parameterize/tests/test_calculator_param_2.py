@@ -9,6 +9,7 @@ skip: enable you to skip tests you don't want to run
 skipif: enable you to skip tests you don't want to run with conditions
 xfail: we expect that this test will be failed
 """
+import pytest
 
 
 @pytest.mark.parametrize(

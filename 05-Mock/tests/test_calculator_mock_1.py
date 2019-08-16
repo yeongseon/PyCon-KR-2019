@@ -1,54 +1,28 @@
 """
-pytest plugins: third-party plugins
-
 pytest-mock
-"""
-from src.calculator_1 import Calculator
 
+$ cd 05-Mock
+# python -m pytest
+"""
 import pytest
 
-add_test_data = [
-    (1, 2, 3),
-    (2, 2, 4),
-    (2, 7, 9),
-    pytest.param(1, 2, 6, marks=pytest.mark.xfail),
-    pytest.param(2, 2, 5, marks=pytest.mark.xfail),
-    pytest.param(2, 7, 2, marks=pytest.mark.xfail)
-]
+
+def test_add_with_mocker1(mocker, calculator):
+    """Test functionality of add."""
+    mocker.patch.object(calculator, 'add', return_value=5)
+    assert calculator.add(1, 2) is 5
+    assert calculator.add(2, 2) is 5
 
 
-@pytest.mark.parametrize(
-    "a, b, expected", add_test_data
-)
-def test_add(calculator, a, b, expected):
-    assert calculator.add(a, b) == expected
+def test_add_with_mocker2(mocker, calculator):
+    """Test functionality of add."""
+    mocker.patch.object(calculator, 'add', side_effect=[1, 2])
+    assert calculator.add(1, 2) is 1
+    assert calculator.add(2, 2) is 2
 
 
-@pytest.mark.parametrize(
-    "a, b, expected", add_test_data
-)
-# mocker: The mocker fixture is provided by the pytest-mock plugin
-def test_add_spy_logger(mocker, calculator, a, b, expected):
-    spy_info = mocker.spy(calculator.logger, "info")
-    assert calculator.add(a, b) == expected
-    assert spy_info.called
-    assert spy_info.call_count == 1
-
-    calls = [mocker.call("add {a} to {b} is {expected}".format(
-        a=a, b=b, expected=expected
-    ))]
-    assert spy_info.call_args_list == calls
-
-
-@pytest.mark.parametrize(
-    "a, b, expected", add_test_data
-)
-def test_add_spy_add(mocker, calculator, a, b, expected):
-    spy_add = mocker.spy(calculator, "add")
-
-    assert calculator.add(a, b) == expected
-    assert spy_add.called
-    assert spy_add.call_count == 1
-
-    calls = [mocker.call(a, b)]
-    assert spy_add.call_args_list == calls
+def test_add_with_mocker3(mocker, calculator):
+    """Test functionality of add."""
+    mocker.patch.object(calculator, 'add', side_effect=ZeroDivisionError())
+    with pytest.raises(ZeroDivisionError):
+        calculator.add(1, 2)

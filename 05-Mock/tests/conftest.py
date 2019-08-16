@@ -3,7 +3,7 @@ sharing fixtures through conftest.py
 """
 import pytest
 
-from src.calculator import Calculator
+from src.calculator_1 import Calculator
 
 
 @pytest.fixture

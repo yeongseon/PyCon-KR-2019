@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f70e4f29-5e87-4ead-9968-c2f2822947cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/1-Getting-Started/calculator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-Getting-Started/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-Getting-Started/test_calculator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-Project-Structure/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-Project-Structure/src/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-Project-Structure/src/calculator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-Project-Structure/tests/test_calculator.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-Parameterize/tests/test_calculator_param_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-Getting-Started/calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/01-Getting-Started/calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-Fixtures/tests/test_calculator_fixture_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-Fixtures/tests/test_calculator_fixture_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-Parameterize/tests/test_calculator_param_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/04-Parameterize/tests/test_calculator_param_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-Parameterize/tests/test_calculator_param_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/04-Parameterize/tests/test_calculator_param_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-Parameterize/tests/test_calculator_param_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/04-Parameterize/tests/test_calculator_param_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-Mock/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/05-Mock/tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-Mock/tests/test_calculator_mock_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/05-Mock/tests/test_calculator_mock_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-Mock/tests/test_calculator_mock_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/05-Mock/tests/test_calculator_mock_2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,9 +20,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.2955975">
+    <splitter split-orientation="horizontal" split-proportion="0.7956621">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/02-Project-Structure/src/calculator.py">
               <provider selected="true" editor-type-id="text-editor">
@@ -29,20 +32,86 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/03-Fixture/src/calculator.py">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/03-Fixtures/src/calculator.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" selection-start-line="19" selection-end-line="19" />
+                <state relative-caret-position="90">
+                  <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/02-Project-Structure/tests/test_calculator.py">
+            <entry file="file://$PROJECT_DIR$/05-Mock/src/calculator.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+                <state relative-caret-position="75">
+                  <caret line="5" column="16" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/05-Mock/src/calculator_1.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="420">
+                  <caret line="28" selection-start-line="28" selection-end-line="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/05-Mock/src/calculator_2.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="319">
+                  <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/05-Mock/tests/test_calculator_mock_1.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="375">
+                  <caret line="25" column="75" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/05-Mock/tests/conftest.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/04-Parameterize/src/calculator.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="375">
+                  <caret line="25" selection-start-line="25" selection-end-line="25" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/02-Project-Structure/tests/test_calculator_1.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/05-Mock/tests/test_calculator_mock_2.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="412">
+                  <caret line="28" column="42" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="42" />
+                  <folding>
+                    <element signature="e#20#33#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -50,58 +119,31 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/02-Project-Structure/tests/test_calculator.py">
+            <entry file="file://$PROJECT_DIR$/03-Fixtures/tests/test_calculator_fixture_4.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" selection-start-line="1" selection-end-line="1" />
+                <state relative-caret-position="210">
+                  <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/04-Parameterization/tests/test_calculator_param_1.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" column="23" selection-start-line="1" selection-end-line="1" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/04-Parameterization/tests/test_calculator_param_2.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="930">
-                  <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
-                </state>
-              </provider>
+            <entry file="file://$PROJECT_DIR$/01-Getting-Started/test_sample.py">
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/04-Parameterization/tests/test_calculator_param_3.py">
+            <entry file="file://$PROJECT_DIR$/01-Getting-Started/test_calculator.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="538">
-                  <caret line="92" column="35" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
+                <state relative-caret-position="240">
+                  <caret line="16" selection-start-line="16" selection-end-line="17" />
                   <folding>
-                    <element signature="e#56#91#0" expanded="true" />
+                    <element signature="e#65#71#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/03-Fixture/tests/test_calculator_fixture_3.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="140">
-                  <caret line="29" column="11" selection-end-line="59" selection-end-column="40" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
-              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
         </leaf>
@@ -118,6 +160,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>result</find>
+      <find>pytest.param</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -132,7 +175,6 @@
         <option value="$PROJECT_DIR$/02-Writing-Tests/input.txt" />
         <option value="$PROJECT_DIR$/02-Writing-Tests/word_counter.py" />
         <option value="$PROJECT_DIR$/02-Project-Structure/src/calculator.py" />
-        <option value="$PROJECT_DIR$/03-Fixture/src/calculator.py" />
         <option value="$PROJECT_DIR$/03-Fixture/tests/test_calculator_with_fixture.py" />
         <option value="$PROJECT_DIR$/03-Fixture/tests/test_calculator.py" />
         <option value="$PROJECT_DIR$/02-Project-Structure/tests/test_calculator.py" />
@@ -142,23 +184,35 @@
         <option value="$PROJECT_DIR$/04-Parameterization/tests/test_calculator_param_1.py" />
         <option value="$PROJECT_DIR$/04-Parameterization/tests/test_calculator_param_2.py" />
         <option value="$PROJECT_DIR$/04-Parameterization/tests/test_calculator_param_3.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/PyCon-KR-2019.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/03-Fixture/src/calculator.py" />
+        <option value="$PROJECT_DIR$/02-Project-Structure/tests/conftest.py" />
+        <option value="$PROJECT_DIR$/01-Getting-Started/calculator.py" />
+        <option value="$PROJECT_DIR$/02-Project-Structure/tests/test_calculator_1.py" />
+        <option value="$PROJECT_DIR$/01-Getting-Started/test_calculator.py" />
+        <option value="$PROJECT_DIR$/03-Fixtures/src/calculator.py" />
+        <option value="$PROJECT_DIR$/03-Fixtures/tests/test_calculator_fixture_1.py" />
+        <option value="$PROJECT_DIR$/03-Fixtures/tests/test_calculator_fixture_2.py" />
+        <option value="$PROJECT_DIR$/03-Fixtures/tests/test_calculator_fixture_3.py" />
+        <option value="$PROJECT_DIR$/03-Fixtures/tests/conftest.py" />
+        <option value="$PROJECT_DIR$/03-Fixtures/tests/test_calculator_fixture_4.py" />
+        <option value="$PROJECT_DIR$/04-Parameterize/src/calculator.py" />
+        <option value="$PROJECT_DIR$/05-Mock/src/calculator.py" />
+        <option value="$PROJECT_DIR$/05-Mock/src/calculator_2.py" />
+        <option value="$PROJECT_DIR$/05-Mock/src/calculator_1.py" />
+        <option value="$PROJECT_DIR$/04-Parameterize/tests/test_calculator_param_2.py" />
+        <option value="$PROJECT_DIR$/04-Parameterize/tests/test_calculator_param_1.py" />
+        <option value="$PROJECT_DIR$/04-Parameterize/tests/test_calculator_param_3.py" />
+        <option value="$PROJECT_DIR$/04-Parameterize/tests/test_calculator_param_4.py" />
+        <option value="$PROJECT_DIR$/05-Mock/tests/conftest.py" />
+        <option value="$PROJECT_DIR$/05-Mock/tests/test_calculator_mock_2.py" />
+        <option value="$PROJECT_DIR$/05-Mock/tests/test_calculator_mock_1.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="683" />
+    <option name="x" value="647" />
     <option name="y" value="23" />
-    <option name="width" value="1237" />
+    <option name="width" value="1273" />
     <option name="height" value="1177" />
   </component>
   <component name="ProjectView">
@@ -198,35 +252,52 @@
             <path>
               <item name="PyCon-KR-2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="PyCon-KR-2019" type="462c0819:PsiDirectoryNode" />
-              <item name="03-Fixture" type="462c0819:PsiDirectoryNode" />
+              <item name="03-Fixtures" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PyCon-KR-2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="PyCon-KR-2019" type="462c0819:PsiDirectoryNode" />
-              <item name="03-Fixture" type="462c0819:PsiDirectoryNode" />
+              <item name="03-Fixtures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PyCon-KR-2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="PyCon-KR-2019" type="462c0819:PsiDirectoryNode" />
-              <item name="03-Fixture" type="462c0819:PsiDirectoryNode" />
+              <item name="03-Fixtures" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PyCon-KR-2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="PyCon-KR-2019" type="462c0819:PsiDirectoryNode" />
-              <item name="04-Parameterization" type="462c0819:PsiDirectoryNode" />
+              <item name="04-Parameterize" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PyCon-KR-2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="PyCon-KR-2019" type="462c0819:PsiDirectoryNode" />
-              <item name="04-Parameterization" type="462c0819:PsiDirectoryNode" />
+              <item name="04-Parameterize" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PyCon-KR-2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="PyCon-KR-2019" type="462c0819:PsiDirectoryNode" />
-              <item name="04-Parameterization" type="462c0819:PsiDirectoryNode" />
+              <item name="04-Parameterize" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyCon-KR-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyCon-KR-2019" type="462c0819:PsiDirectoryNode" />
+              <item name="05-Mock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyCon-KR-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyCon-KR-2019" type="462c0819:PsiDirectoryNode" />
+              <item name="05-Mock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyCon-KR-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyCon-KR-2019" type="462c0819:PsiDirectoryNode" />
+              <item name="05-Mock" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -237,13 +308,26 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/04-Parameterize/tests" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/04-Parameterize/tests" />
+      <recent name="$PROJECT_DIR$/05-Mock/tests" />
+      <recent name="$PROJECT_DIR$/05-Mock/src" />
+      <recent name="$PROJECT_DIR$/02-Project-Structure/tests" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -257,6 +341,35 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="test_calculator_mock_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PyCon-KR-2019" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05-Mock/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05-Mock/tests/test_calculator_mock_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test_calculator_mock_1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -267,49 +380,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562599140713</updated>
-      <workItem from="1562599145358" duration="17342000" />
+      <workItem from="1562599145358" duration="28834000" />
+      <workItem from="1563685614373" duration="2281000" />
+      <workItem from="1565423596762" duration="12933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17342000" />
+    <option name="totallyTimeSpent" value="44048000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="683" y="23" width="1237" height="1177" extended-state="0" />
+    <frame x="647" y="23" width="1273" height="1177" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23514645" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3529954" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24980484" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.28838342" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.3299539" />
+      <window_info anchor="bottom" id="Database Changes" order="0" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.38064516" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Python Console" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Python Console" order="4" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="Run" order="8" />
@@ -318,34 +410,130 @@
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="SciView" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="2" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/05-Mock/tests/test_calculator_mock_2.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/05-Mock/tests/conftest.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PyCon_KR_2019$test_calculator_mock_1.coverage" NAME="test_calculator_mock_1 Coverage Results" MODIFIED="1563680870915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05-Mock/tests" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/02-Writing-Tests/input.txt">
+    <entry file="file://$PROJECT_DIR$/02-Writing-Tests/input.txt" />
+    <entry file="file://$PROJECT_DIR$/02-Writing-Tests/word_counter.py" />
+    <entry file="file://$PROJECT_DIR$/02-Project-Structure/requirements.txt" />
+    <entry file="file://$PROJECT_DIR$/03-Fixture/tests/test_calculator_with_fixture.py" />
+    <entry file="file://$PROJECT_DIR$/03-Fixture/tests/test_calculator.py" />
+    <entry file="file://$PROJECT_DIR$/03-Fixture/tests/test_calculator2.py" />
+    <entry file="file://$PROJECT_DIR$/03-Fixture/tests/test_calculator3.py" />
+    <entry file="file://$PROJECT_DIR$/03-Fixture/tests/test_calculator4.py" />
+    <entry file="file://$PROJECT_DIR$/04-Parameterization/tests/test_calculator_param_1.py" />
+    <entry file="file://$PROJECT_DIR$/04-Parameterization/tests/test_calculator_param_2.py" />
+    <entry file="file://$PROJECT_DIR$/04-Parameterization/tests/test_calculator_param_3.py" />
+    <entry file="file://$PROJECT_DIR$/02-Project-Structure/tests/test_calculator_2.py" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/logging/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-362">
-          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        <state relative-caret-position="196">
+          <caret line="1035" selection-start-line="1035" selection-end-line="1035" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02-Writing-Tests/word_counter.py">
+    <entry file="file://$PROJECT_DIR$/05-Mock/src/calculator_3.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="485">
+          <caret line="1757" selection-start-line="1757" selection-end-line="1757" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02-Project-Structure/requirements.txt">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-end-line="1" />
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-Project-Structure/tests/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="79" selection-start-line="4" selection-start-column="79" selection-end-line="4" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Getting-Started/calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-Project-Structure/src/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-Fixtures/tests/test_calculator_fixture_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-Fixtures/tests/test_calculator_fixture_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="e#9#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-Fixtures/tests/test_calculator_fixture_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-213">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="e#9#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-Fixtures/tests/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-Project-Structure/tests/test_calculator_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -356,92 +544,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-Fixture/tests/test_calculator_with_fixture.py">
+    <entry file="file://$PROJECT_DIR$/03-Fixtures/src/calculator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#6#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-Fixture/tests/test_calculator.py">
+    <entry file="file://$PROJECT_DIR$/04-Parameterize/src/calculator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-Fixture/tests/test_calculator2.py">
+    <entry file="file://$PROJECT_DIR$/04-Parameterize/tests/test_calculator_param_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="35" column="40" selection-end-line="35" selection-end-column="40" />
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-Fixture/tests/test_calculator3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#9#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-Fixture/tests/test_calculator4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-Project-Structure/tests/test_calculator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/05-Mock/src/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-Fixture/tests/test_calculator_fixture_3.py">
+    <entry file="file://$PROJECT_DIR$/04-Parameterize/tests/test_calculator_param_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="29" column="11" selection-end-line="59" selection-end-column="40" />
+        <state relative-caret-position="600">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-Parameterization/tests/test_calculator_param_1.py">
+    <entry file="file://$PROJECT_DIR$/04-Parameterize/tests/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="23" selection-start-line="1" selection-end-line="1" selection-end-column="23" />
+        <state relative-caret-position="90">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-Parameterization/tests/test_calculator_param_2.py">
+    <entry file="file://$PROJECT_DIR$/04-Parameterize/tests/test_calculator_param_4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+        <state relative-caret-position="345">
+          <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-Fixture/src/calculator.py">
+    <entry file="file://$PROJECT_DIR$/04-Parameterize/tests/test_calculator_param_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="915">
+          <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-Parameterization/tests/test_calculator_param_3.py">
+    <entry file="file://$PROJECT_DIR$/05-Mock/tests/test_calculator_mock_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="92" column="35" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
+        <state relative-caret-position="412">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="42" />
           <folding>
-            <element signature="e#56#91#0" expanded="true" />
+            <element signature="e#20#33#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Mock/tests/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Mock/src/calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Mock/src/calculator_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Mock/src/calculator_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-Fixtures/tests/test_calculator_fixture_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Getting-Started/test_sample.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Getting-Started/test_calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="17" />
+          <folding>
+            <element signature="e#65#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Mock/tests/test_calculator_mock_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="75" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
         </state>
       </provider>
     </entry>

@@ -4,6 +4,7 @@ Test the add, subtract, multiply, divide
 $ cd 04-Parameterize
 $ python -m pytest
 """
+import pytest
 
 
 # def test_add(calculator, a, b, expected):

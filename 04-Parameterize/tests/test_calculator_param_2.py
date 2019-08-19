@@ -22,7 +22,7 @@ def test_add(calculator, a, b, expected):
 
 
 # pytest.mark.xfail
-@pytest.mark.xfail(rason="wrong result")
+@pytest.mark.xfail(reason="wrong result")
 @pytest.mark.parametrize(
     "a, b, expected",
     [(1, 2, 6),
